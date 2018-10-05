@@ -11,13 +11,13 @@ class hw05Spec extends FlatSpec {
    
    "binom" should "compute the binomial coefficient of n and k" in {
      for (n <- 0 to 10; k <- 0 to n) {
-       assert (binom_naive(n, k) === binom(n, k))
+       assert (binomNaive(n, k) === binom(n, k))
      }
    }
   
    "trib" should "compute the n-th tribonacci number" in {
      for (n <- 0 to 10) {
-       assert (trib_naive(n) === trib(n))
+       assert (tribNaive(n) === trib(n))
      }     
    }
 }
