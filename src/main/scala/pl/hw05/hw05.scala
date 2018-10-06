@@ -35,7 +35,4 @@ object hw05 extends App {
     ???
   }
   
-  
-  // Add testing code here, or better yet, add them as additional unit tests to test/scala/pl/hw05/hw05Spec.scala
-  
 }

@@ -17,7 +17,7 @@
 
 ;; some tests (they should all evaluate to #t)
 ;(evalbool (isnil nil))
-;(equal? (evalbool (isnil (lambda (f n) (f 1 n)))) #f)
+;(equal? (evalbool (isnil (lambda (f z) (f 1 z)))) #f)
 ;(equal? (evallist nil) '())
 ;(equal? (evallist (cns 1 nil)) '(1))
 ;(equal? (evallist (cns 2 (cns 1 nil))) '(2 1))
